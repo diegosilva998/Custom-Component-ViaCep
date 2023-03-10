@@ -1,6 +1,5 @@
 //react/Countdown.tsx
 import React, { useState } from "react";
-import { useForm } from "react-hook-form";
 
 interface InputCepProps {}
 
@@ -129,6 +128,8 @@ const InputCep: StorefrontFunctionComponent<InputCepProps> = ({}) => {
 		</div>
 	);
 };
+
+//deixei padrão mesmo por que não tem muito oque customizar nesse app pelo site editor
 
 InputCep.schema = {
 	title: "editor.InputCep.title",
